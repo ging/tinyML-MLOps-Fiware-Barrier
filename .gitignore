@@ -1,0 +1,15 @@
+prediction-job/classifiers/latest
+prediction-job/prediction-job
+home/
+code
+train
+__pycache__
+logs
+venv
+.metals
+.vscode
+.bloop
+bin
+mlruns/
+mlflow/artifacts
+*.db
