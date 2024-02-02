@@ -1,4 +1,4 @@
-# FIWARE Machine Learning and MLOps - Supermarket example
+# FIWARE Machine Learning TinyML and MLOps - Barrier use case
 
 Start base infraestructure
 ```
