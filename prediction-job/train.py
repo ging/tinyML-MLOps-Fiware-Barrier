@@ -93,7 +93,7 @@ def train():
     randmos_state = 40
     np.random.seed(randmos_state)
 
-    csv_file = os.path.join(here, "barrier.csv")
+    csv_file = os.path.join(here, "barrier_half.csv")
     
     data = pd.read_csv(csv_file, sep=",")
 
@@ -104,7 +104,7 @@ def train():
     target_column = "density_binary"
     feature_columns = ["weekday","day","hour","temperature","wind_speed"]
 
-    n_estimators_big = 150
+    n_estimators_big = 50
     max_depth_big = 10
 
     experiment_name = 'FIWARE_MLOPS_TINYML'
