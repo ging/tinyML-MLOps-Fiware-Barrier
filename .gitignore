@@ -1,4 +1,6 @@
 prediction-job/classifiers/latest
+prediction-job/classifiers/latest_base
+prediction-job/classifiers/latest_big
 prediction-job/prediction-job
 home/
 code
